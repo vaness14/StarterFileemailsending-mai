@@ -113,3 +113,8 @@ function validateField(){
    field.classList.add('error');
            }
        }
+// Reset the form
+function resetForm(){
+    sendEmailForm.reset();
+
+    }
